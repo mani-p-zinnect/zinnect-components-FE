@@ -1,12 +1,13 @@
 {
-  "name": "zinnect-helpdesk",
+  "name": "zinnec-helpdesk",
   "version": "1.0.0",
-  "description": "Zinnect Helpdesk Application using zinnect-components",
+  "description": "Zinnec Helpdesk application using zinnec-components",
   "private": true,
   "dependencies": {
-    "zinnect-components": "git+https://github.com/yourusername/zinnect-components.git",
+    "zinnec-components": "git+https://github.com/yourusername/zinnec-components.git",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,8 +15,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "react-scripts": "5.0.1"
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
