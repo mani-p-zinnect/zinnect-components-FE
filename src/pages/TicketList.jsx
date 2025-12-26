@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Table, Card } from 'zinnec-components';
+import { Button, Table, Card } from 'zinnect-components';
 
 function TicketList() {
   const [tickets] = useState([

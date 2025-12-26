@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'zinnec-components';
+import { Button } from 'zinnect-components';
 import TicketList from './pages/TicketList';
 import './App.css';
 
