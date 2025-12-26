@@ -11,15 +11,8 @@ function App() {
 
   return (
     <div className="App">
-      <header style={{ 
-        padding: '20px', 
-        backgroundColor: '#f5f5f5',
-        borderBottom: '2px solid #ddd',
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center'
-      }}>
-        <h1 style={{ margin: 0 }}>Zinnec Helpdesk</h1>
+      <header className="app-header">
+        <h1 className="app-title">Zinnec Helpdesk</h1>
         <Button variant="secondary" onClick={handleLogout}>
           Logout
         </Button>

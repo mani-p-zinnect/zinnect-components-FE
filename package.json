@@ -4,10 +4,10 @@
   "description": "Zinnec Helpdesk application using zinnec-components",
   "private": true,
   "dependencies": {
-    "zinnec-components": "git+https://github.com/mani-p-zinnect/zinnect-components.git",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "zinnect-components": "git+https://github.com/mani-p-zinnect/zinnect-components.git"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,4 +33,3 @@
     ]
   }
 }
-

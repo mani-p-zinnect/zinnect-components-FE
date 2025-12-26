@@ -21,10 +21,10 @@ function TicketList() {
   };
 
   return (
-    <div style={{ padding: '20px', maxWidth: '1200px', margin: '0 auto' }}>
-      <h1 style={{ marginBottom: '20px' }}>Helpdesk Tickets</h1>
+    <div className="ticket-list-container">
+      <h1 className="ticket-list-title">Helpdesk Tickets</h1>
       
-      <div style={{ marginBottom: '20px' }}>
+      <div className="ticket-list-actions">
         <Button variant="primary" onClick={handleCreateTicket}>
           Create New Ticket
         </Button>
